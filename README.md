@@ -6,8 +6,6 @@ This repository contains analysis scripts associated with the dissertation:
 
 **Project description:**
 
-By employing machine learning techniques to extract features highly correlated with age and constructing models, we can estimate the biological age of a sample. These age estimators are often considered surrogates for biological age, reflecting an individual’s biological aging process.8 The discrepancy between an individual’s estimated biological age and their chronological age is used to assess whether their physiological age is younger or older than their actual age
-
 Molecular ageing clocks are models that employ machine learning (ML) techniques to estimate the biological age biological age of a sample. However, they are often trained on chronological age, which fails to account for differences in physiological status across individuals of the same chronological age. Additionally, they are often derived from cross-sectional data rather than longitudinal data, so fail to track changes in an individual over time. This project applies the optimal reaction coordinate (RC) framework to longitudinal DNA methylation data from the Swedish Adoption/Twin Study of Aging (SATSA) to predict biological age and compares these estimates to predictions made using standard molecular ageing clocks. The framework was extended to predict time to death, a valuable metric for longevity research. First, a surrogate end point was set to age 100 for all individuals and then the framework was reapplied after setting a surrogate end point for only individuals over 92 years. 
 
 **Contents:**
